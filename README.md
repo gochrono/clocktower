@@ -1,4 +1,4 @@
-## Castle - CRM / Time Tracker / Project Management
+## Clocktower - CRM / Time Tracker / Project Management
 
 Architectural descisions:
 

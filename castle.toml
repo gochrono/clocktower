@@ -1,6 +1,6 @@
 [database]
-dsn = "postgres://castle:castle@db:5432/castle?sslmode=disable"
-migration = "postgres://castle:castle@0.0.0.0:5432/castle?sslmode=disable&x-migrations-table=migrations"
+dsn = "postgres://clocktower:clocktower@db:5432/clocktower?sslmode=disable"
+migration = "postgres://clocktower:clocktower@0.0.0.0:5432/clocktower?sslmode=disable&x-migrations-table=migrations"
 
 [debug]
 url = "http://localhost:8000/"

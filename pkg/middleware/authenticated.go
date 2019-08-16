@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/gochrono/castle/config"
-	"github.com/gochrono/castle/models"
+	"github.com/gochrono/clocktower/config"
+	"github.com/gochrono/clocktower/models"
 	"github.com/julienschmidt/httprouter"
 )
 

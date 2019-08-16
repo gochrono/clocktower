@@ -11,8 +11,8 @@ RUN apk update && \
     apk add git curl && \
     rm -r /var/cache/apk/*
 
-RUN mkdir /go/src/github.com/gochrono/castle -p
-WORKDIR /go/src/github.com/gochrono/castle
+RUN mkdir /go/src/github.com/gochrono/clocktower -p
+WORKDIR /go/src/github.com/gochrono/clocktower
 
 COPY go.mod .
 COPY go.sum .

@@ -3,8 +3,8 @@ package handlers
 import (
 	"encoding/json"
 	"github.com/dgrijalva/jwt-go"
-	"github.com/gochrono/castle/config"
-	"github.com/gochrono/castle/models"
+	"github.com/gochrono/clocktower/config"
+	"github.com/gochrono/clocktower/models"
 	"github.com/julienschmidt/httprouter"
 	"github.com/sirupsen/logrus"
 	"io/ioutil"

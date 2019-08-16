@@ -38,11 +38,11 @@ func Port() string {
 
 // DSN returns the CRICK_DSN value from environment.
 func DSN() string {
-	return "postgres://castle:castle@db:5432/castle?sslmode=disable"
+	return "postgres://clocktower:clocktower@db:5432/clocktower?sslmode=disable"
 }
 
 func MigrateDSN() string {
-	return "postgres://castle:castle@0.0.0.0:5432/castle?sslmode=disable&x-migrations-table=migrations"
+	return "postgres://clocktower:clocktower@0.0.0.0:5432/clocktower?sslmode=disable&x-migrations-table=migrations"
 }
 
 func SecretKey() []byte {

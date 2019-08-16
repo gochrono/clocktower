@@ -1,4 +1,4 @@
-module github.com/gochrono/castle
+module github.com/gochrono/clocktower
 
 go 1.12
 

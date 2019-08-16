@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gochrono/castle/models"
+	"github.com/gochrono/clocktower/models"
 	"github.com/sirupsen/logrus"
 	"io/ioutil"
 )

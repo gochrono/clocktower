@@ -6,9 +6,9 @@ services:
     build:
       context: .
     volumes:
-      - .:/go/src/github.com/gochrono/castle
+      - .:/go/src/github.com/gochrono/clocktower
     environment:
-      CASTLE_DSN: postgres://castle:castle@db:5432/castle?sslmode=disable
+      CLOCKTOWER_DSN: postgres://clocktower:clocktower@db:5432/clocktower?sslmode=disable
     ports:
       - 8000:8000
     depends_on:
@@ -17,9 +17,9 @@ services:
     restart: always
     image: postgres:11.3-alpine
     environment:
-      POSTGRES_DB: "castle"
-      POSTGRES_USER: "castle"
-      POSTGRES_PASSWORD: "castle"
+      POSTGRES_DB: "clocktower"
+      POSTGRES_USER: "clocktower"
+      POSTGRES_PASSWORD: "clocktower"
       # volumes:
       # - ./postgres-data/postgres:/var/lib/postgresql/data
     ports:

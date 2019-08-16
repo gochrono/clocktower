@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"encoding/json"
-	"github.com/gochrono/castle/middleware"
+	"github.com/gochrono/clocktower/middleware"
 	"github.com/julienschmidt/httprouter"
 	log "github.com/sirupsen/logrus"
 	"net/http"

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gochrono/castle/commands"
+	"github.com/gochrono/clocktower/commands"
 	"os"
 )
 

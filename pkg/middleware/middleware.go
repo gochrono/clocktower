@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"github.com/NYTimes/gziphandler"
-	"github.com/gochrono/castle/config"
+	"github.com/gochrono/clocktower/config"
 	"github.com/justinas/alice"
 	_ "github.com/lib/pq" // Load postges drivers
 	"github.com/rs/cors"

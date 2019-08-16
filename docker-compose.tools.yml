@@ -4,7 +4,7 @@ services:
   migrate:
     build:
       context: ./migrations
-    entrypoint: migrate -database 'postgres://castle:castle@db:5432/castle?sslmode=disable&x-migrations-table=migrations' -source 'file:///migrations'
+    entrypoint: migrate -database 'postgres://clocktower:clocktower@db:5432/clocktower?sslmode=disable&x-migrations-table=migrations' -source 'file:///migrations'
     volumes:
       - ./migrations:/migrations
     depends_on:

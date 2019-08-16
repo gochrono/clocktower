@@ -1,14 +1,14 @@
-DOCKER_COMPOSE=docker-compose -p castle
+DOCKER_COMPOSE=docker-compose -p clocktower
 RUN_MIGRATE=$(DOCKER_COMPOSE) -f docker-compose.yml -f docker-compose.tools.yml run --rm migrate
 
 default: help
 
 dev: ## start the API with Docker
-	@docker-compose -p castle up -d
+	@docker-compose -p clocktower up -d
 .PHONY: dev
 
 docker-build: ## start the API with Docker
-	@docker-compose -p castle build -d
+	@docker-compose -p clocktower build -d
 .PHONY: dev
 
 logs: ## show the API logs

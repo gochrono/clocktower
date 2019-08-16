@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/gochrono/castle/pkg/handlers"
-	m "github.com/gochrono/castle/pkg/middleware"
+	"github.com/gochrono/clocktower/pkg/handlers"
+	m "github.com/gochrono/clocktower/pkg/middleware"
 	"github.com/jmoiron/sqlx"
 	"github.com/julienschmidt/httprouter"
 	_ "github.com/lib/pq" // Load postges drivers

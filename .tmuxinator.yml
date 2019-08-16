@@ -1,12 +1,12 @@
 ---
-name: castle
+name: clocktower
 root: .
 
 windows:
-  - castle/docker:
+  - clocktower/docker:
       - make dev
-      - docker logs -f castle_api_1
-  - castle/editor:
+      - docker logs -f clocktower_api_1
+  - clocktower/editor:
       - vim main.go
-  - castle/shell:
+  - clocktower/shell:
       - ls
