@@ -1,0 +1,5 @@
+gin-bin
+castle
+postgres-data/
+.auth
+.tmp/

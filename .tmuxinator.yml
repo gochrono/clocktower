@@ -1,0 +1,12 @@
+---
+name: castle
+root: .
+
+windows:
+  - castle/docker:
+      - make dev
+      - docker logs -f castle_api_1
+  - castle/editor:
+      - vim main.go
+  - castle/shell:
+      - ls

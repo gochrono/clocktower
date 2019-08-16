@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  migrate:
+    build:
+      context: ./migrations
+    entrypoint: migrate -database 'postgres://castle:castle@db:5432/castle?sslmode=disable&x-migrations-table=migrations' -source 'file:///migrations'
+    volumes:
+      - ./migrations:/migrations
+    depends_on:
+      - db
